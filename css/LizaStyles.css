@@ -1,0 +1,316 @@
+h1{
+	font-weight: 100;
+}
+body{
+	background-color: #051314;
+}
+address{
+	font-family: 'Ubuntu', sans-serif;
+	color: color: rgba(247, 231, 231, 0.6);
+	position: absolute;
+	width: 160px;
+	height: 53px;
+	left: 15px;
+	top: 44px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 57px;
+	display: flex;
+	align-items: center;
+
+	color: rgba(247, 231, 231, 0.6);
+}
+
+.container{
+		margin: 0 auto;
+		width: 90%;
+		position: relative;
+
+	}
+	.photo{
+		display: none;
+	}
+	.header{
+		position: absolute;
+		width: 320px;
+		height: 84px;
+		left: 5px;
+		top: 97px;
+		color: white;
+	}
+	.mainContent{
+		position: absolute;
+		width: 322px;
+		height: 180px;
+		left: 5px;
+		top: 195px;
+
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 25px;
+		display: flex;
+		align-items: center;
+
+		color: #FFFFFF;
+
+	}
+	.vk{
+		position: absolute;
+		width: 125px;
+		height: 43px;
+		left: 0px;
+		top: 426px;
+		}
+	.fb{
+		position: absolute;
+		width: 126px;
+		height: 114px;
+		left: 0px;
+		top: 486px;
+	}
+	.inst{
+		position: absolute;
+		width: 170px;
+		height: 115px;
+		left: 0px;
+		top: 546px;
+	}
+	button{
+		font-family: 'PT Sans', sans-serif;
+		width: 330px;
+		height: 45px;
+		color: #FDFDFD;
+		border-radius: 5px;
+	}
+	#vk{
+		background-color: rgba(77, 118, 161, 0.8);
+		border-color: rgba(77, 118, 161, 0.8);
+	}
+	#fb{
+		background-color: #3B5998;
+		border-color: #3B5998;
+	}
+	#inst{
+		background-color: #ECABB5;
+		border-color: #ECABB5;
+	}
+
+@media (min-width: 1200px) {
+	.photo{
+		display: block;
+	}
+	button{
+		display: none;
+	}
+	address{
+		position: absolute;
+		width: 160px;
+		height: 53px;
+		left: 145px;
+		top: 91px;
+
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		line-height: 57px;
+		display: flex;
+		align-items: center;
+	}
+	.container{
+		background: url(../img/Rectangle.png) no-repeat;
+		position: absolute;
+		width: 1400px;
+		height: 720px;
+		left: calc(50% - 1400px/2);
+		top: 0px;
+	}
+	.header{
+		position: absolute;
+		width: 445px;
+		height: 127px;
+		left: 145px;
+		top: 144px;
+
+		font-family: Ubuntu;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 57px;
+		display: flex;
+		align-items: center;
+
+		color: #FFFDFE;
+	}
+	.mainContent{
+	position: absolute;
+	width: 700px;
+	height: 193.92px;
+	left: 145px;
+	top: 317px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 35px;
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+
+	}
+	.vk{
+		background: url(../img/vk.png);
+		position: absolute;
+		width: 89px;
+		height: 87px;
+		left: 604px;
+		top: 536px;
+	}
+	.fb{
+		background: url(../img/fb.png);
+		position: absolute;
+		width: 89px;
+		height: 87px;
+		left: 772px;
+		top: 536px;
+	}
+	.inst{
+		background: url(../img/inst.png);
+		position: absolute;
+		width: 87px;
+		height: 87px;
+		left: 940px;
+		top: 536px;
+	}
+	.photo{
+		position: absolute;
+		width: 261px;
+		height: 268px;
+		left: 919px;
+		top: 195px;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+	.photo{
+		display: block;
+	}
+	button{
+		display: none;
+	}
+	address{
+		display: block;
+		position: absolute;
+		width: 160px;
+		height: 70px;
+		left: 350px;
+		top: 10px;
+
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		line-height: 57px;
+		display: flex;
+		align-items: center;
+
+	}
+	.container{
+		position: absolute;
+		width: 1400px;
+		height: 800px;
+		left: calc(50% - 1400px/2 + 0.5px);
+		top: 0px;
+
+		background: url(../img/Rectangle.png);
+		border: 1px solid #000000;
+		box-sizing: border-box;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+	.header{
+		position: absolute;
+		width: 469px;
+		height: 194px;
+		left: 331px;
+		top: 33px;
+
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 48px;
+		display: flex;
+		align-items: center;
+
+		color: #FFFDFE;
+	}
+	.mainContent{
+		position: absolute;
+		width: 501px;
+		height: 193.92px;
+		left: 331px;
+		top: 244px;
+
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 27px;
+		display: flex;
+		align-items: center;
+
+		color: #FFFFFF;
+	}
+	.photo{
+		position: absolute;
+		width: 261px;
+		height: 268px;
+		left: 832px;
+		top: 67px;
+	}
+	.vk{
+		background: url(../img/vk.png) no-repeat;
+		position: absolute;
+		width: 89px;
+		height: 87px;
+		left: 537px;
+		top: 532px;
+	}
+	.fb{
+		background: url(../img/fb.png) no-repeat;
+		position: absolute;
+		width: 89px;
+		height: 87px;
+		left: 711px;
+		top: 532px;
+	}
+	.inst{
+		background: url(../img/inst.png) no-repeat;
+		position: absolute;
+		width: 87px;
+		height: 87px;
+		left: 885px;
+		top: 532px;
+	}
+}
+
+	
+.header{
+	font-family: 'Ubuntu', sans-serif;
+}
+.mainContent{
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media(min-width:769px){
+.vk:hover,.fb:hover,.inst:hover{
+	background-color:rgba(0, 0, 0, 0.1);
+	border: solid 2px blue;
+	border-radius: 50px;
+	transition: 1s;
+}
+}
+
+
+

@@ -1,0 +1,109 @@
+body{
+	font-size: 23px;
+	margin: 0;
+}
+h1{
+	margin: 0;
+	font-weight: 500;
+	font-size: 3.7rem;
+	line-height: 3.5rem;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.intro{
+	background: url('../img/mainBgrd.jpg');
+	width: 100%;
+	height: 170vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0;
+}
+.container{
+	width: 85%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.text{
+
+}
+.header  {
+	font-family: 'Playfair Display', serif ;
+	color: #622D2D;
+	width: 75%
+} 
+
+.mainContent{
+	font-family: 'PT Sans', sans-serif;
+	color: #551C1C;
+	width: 60%;
+	font-size: 1.8rem;
+	line-height: 1.7rem;
+	text-indent: 10px;
+}
+
+.photo{
+	font-family: 'Ubuntu', sans-serif;
+	float: right;
+	color: #FFFAFA;
+	text-align: center;
+
+}
+.photoArtem, .photoLiza{
+	float: left;
+	margin-right: 50px;
+}
+@media (max-width: 1023px) {
+	.text{
+		float: left;
+		width: 70%;
+		font-size: 1.1rem;
+	}
+	.header, .mainContent{
+		margin-right: 0px;
+	}
+
+	.photo{
+		float: left;
+		width: 30%;
+		margin-top: 200px;
+	}
+}
+@media (max-width: 767px) {
+	.container,.text,.photo{
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+		display: block;
+		width: 90%;
+		font-size: 15px;
+		text-align: justify;
+	}
+	h1{
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.photo{
+		text-align: center;
+		display: block;
+	}
+	.mainContent, .header{
+		width: 100%;
+		font-size: 20px;
+	}
+	.photoArtem{
+		width: 100%;
+		text-align: left;
+	}
+	.photoArtem p{
+		margin-left: 55px;
+	}
+	.photoLiza{
+		float: left;
+		margin-left: 160px;
+	}
+}
+
+
